@@ -7,12 +7,12 @@ PFB steps:
 1. checkout this repo on the local machine
 2. open scala eclipse ide, with workspace set till this folder <local path>/apache-spark-local-setup
 3. import the spark code using "Existing Maven Projects" from the "import" wizard
-4: let it configure the codebase and "building workspace" progress bar to complete
-5: once it is done, select all the projects and do a "maven update project"
-6: select the parent project, right click and do run as "Maven build", 
+4. let it configure the codebase and "building workspace" progress bar to complete
+5. once it is done, select all the projects and do a "maven update project"
+6. select the parent project, right click and do run as "Maven build", 
  use skipTests=true (to avoid running test cases) as well as -Dmaven.skip.tests=true (to avoid compiling test cases) in order to build faster
-7: select all the project and refresh it,
-8: go to this path: 
+7. select all the project and refresh it,
+8. go to this path: 
 	<windows local path>\apache-spark-local-setup\spark\sql\core\src\main\scala\org\apache\spark\sql\test\TestBatchSetup.scala
 	<windows local path>\apache-spark-local-setup\spark\sql\core\src\main\scala\org\apache\spark\sql\test\TestMe.scala
 
