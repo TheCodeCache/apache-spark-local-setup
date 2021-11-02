@@ -35,7 +35,8 @@ Requirements:
 		-Xms512m
 	(notice: I've used G1 as Garbage Collector and a max heap size of 2.5 GB though, it will work even on 2 GB
 
-observation, building spark code is more smooth with G1 than other Garbage Collectors (like CMS), 
+Observation: 
+	building spark code is more smooth with G1 than other Garbage Collectors (like CMS), 
 	it consumes less heap as well, mostly aorund 1 GB heap, sometimes it do touch around 1.9 GB or 2.1 GB
 
 Possible Challanges (while building):
