@@ -1,6 +1,6 @@
-Spark version: 3.3.0-SNAPSHOT
+**Spark version: 3.3.0-SNAPSHOT**
 
-This is about how to set up Apache Spark open-source code in Eclipse IDE on your local windows machine.
+This is about "**How to set up Apache Spark open-source code in Eclipse IDE on your local windows machine.**"
 
 PFB steps:
 
@@ -18,7 +18,7 @@ PFB steps:
 
 The above steps have been tested on Windows Machine ( v8.1 and v10)
 
-Requirements:
+**Requirements:**
 
 	scala-ide (latest): http://scala-ide.org/download/sdk.html
 	java: basically java8 (tested on jdk1.8.0_301 or jdk1.8.0_121 or jdk1.8.0_201)
@@ -35,12 +35,12 @@ Requirements:
 		-Xms512m
 	(notice: I've used G1 as Garbage Collector and a max heap size of 2.5 GB though, it will work even on 2 GB
 
-Observation:
+**Observation:**
 
 	building spark code is more smooth with G1 than other Garbage Collectors (like CMS), 
 	it consumes less heap as well, mostly aorund 1 GB heap, sometimes it do touch around 1.9 GB or 2.1 GB
 
-Possible Challanges (while building):
+**Possible Challanges (while building):**
 
 	in case of StackOverflowError, use -xss 512kb in the above -vmargs as part of eclipse.ini file
 		this -xss option can be tweaked accordingly (slowly starting from 256 KB to 512 kb to 768 kb etc.)
@@ -50,4 +50,4 @@ Once the codebase is all set then take a walk of the codebase, start debugging t
 
 I'm sure you'll enjoy like I did : p : D 
 
-Happy Learning !!
+**Happy Learning !!**
