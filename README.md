@@ -19,6 +19,7 @@ PFB steps:
 The above steps have been tested on Windows Machine ( v8.1 and v10)
 
 Requirements:
+
 	scala-ide (latest): http://scala-ide.org/download/sdk.html
 	java: basically java8 (tested on jdk1.8.0_301 or jdk1.8.0_121 or jdk1.8.0_201)
 	maven: 3.6.3 or later version (I've tested specifically on 3.6.3)
