@@ -46,8 +46,7 @@ Possible Challanges (while building):
 		this -xss option can be tweaked accordingly (slowly starting from 256 KB to 512 kb to 768 kb etc.)
 
 Once the codebase is all set then take a walk of the codebase, start debugging the source code,
-
-make changes in the source code for deeper understanding the flow etc. now spark is all yours : D
+	make changes in the source code for deeper understanding of the spark flow etc. now spark is all yours : D
 
 I'm sure you'll enjoy like I did : p : D 
 
