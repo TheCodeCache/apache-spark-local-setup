@@ -1,6 +1,6 @@
 Spark version: 3.3.0-SNAPSHOT
 
-This is about how to set up Apache Spark open-source code in your local Eclipse IDE.
+This is about how to set up Apache Spark open-source code in Eclipse IDE on your local windows machine.
 
 PFB steps:
 
