@@ -35,14 +35,16 @@ Requirements:
 		-Xms512m
 	(notice: I've used G1 as Garbage Collector and a max heap size of 2.5 GB though, it will work even on 2 GB
 
-Observation: 
+Observation:
+
 	building spark code is more smooth with G1 than other Garbage Collectors (like CMS), 
 	it consumes less heap as well, mostly aorund 1 GB heap, sometimes it do touch around 1.9 GB or 2.1 GB
 
 Possible Challanges (while building):
+
 	in case of StackOverflowError, use -xss 512kb in the above -vmargs as part of eclipse.ini file
 
-Once the codebase is all set then take a walk of the codebase, start debugging the source code, 
+Once the codebase is all set then take a walk of the codebase, start debugging the source code,
 	make changes in the source code for deeper understanding the flow etc. now spark is all yours : D
 
 I'm sure you'll enjoy like I did : p : D 
